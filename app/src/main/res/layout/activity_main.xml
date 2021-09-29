@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+	<LinearLayout
+		android:layout_gravity="bottom"
+		android:orientation="horizontal"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:id="@+id/square"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="@string/square"
+			style="?android:attr/buttonBarButtonStyle">
+
+		</Button>
+
+		<Button
+			android:id="@+id/cube"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="wrap_content"
+			android:text="@string/cube"
+			style="?android:attr/buttonBarButtonStyle">
+
+		</Button>
+
+		<Button
+			android:id="@+id/sphere"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/sphere"
+			android:layout_height="wrap_content"
+			style="?android:attr/buttonBarButtonStyle">
+
+		</Button>
+	</LinearLayout>
+</FrameLayout>
